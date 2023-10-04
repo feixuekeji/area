@@ -1,7 +1,7 @@
 ### 全国省市区三级数据库,三级联动地区数据库
 
 格式如下
-...
+```
 DROP TABLE IF EXISTS `area`;
 CREATE TABLE `area`  (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -38,4 +38,4 @@ INSERT INTO `area` VALUES (110117, 110100, '平谷区', 2, 0, 3);
 INSERT INTO `area` VALUES (110228, 110200, '密云县', 2, 0, 3);
 INSERT INTO `area` VALUES (110229, 110200, '延庆县', 2, 0, 3);
 INSERT INTO `area` VALUES (110230, 110100, '其它区', 2, 0, 3);
-...
+```
